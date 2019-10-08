@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/lyla"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/me_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/lyla_text_view"
+        android:text="@string/me"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/natalie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="@string/natalie"
+        android:layout_above="@id/lyla_text_view"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/jennie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/jennie"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/omoju_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/jennie_text_view"
+        android:layout_alignParentEnd="true"
+        android:text="@string/omoju"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/amy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/omoju_text_view"
+        android:text="@string/amy"
+        android:textSize="24sp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/ben_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ben"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/kunal_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@id/ben_text_view"
+        android:text="@string/kunal"
+        android:textSize="24sp"
+        android:layout_toLeftOf="@id/ben_text_view"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/kagure_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/kagure"
+        android:layout_toEndOf="@id/ben_text_view"
+        android:textSize="24sp"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BasicLinearLayout</string>
+    <string name="ben">Ben</string>
+    <string name="kunal">Kunal</string>
+    <string name="kagure">Kagure</string>
+    <string name="lyla">Lyla</string>
+    <string name="me">Me</string>
+    <string name="natalie">Natalie</string>
+    <string name="jennie">Jennie</string>
+    <string name="omoju">Omoju</string>
+    <string name="amy">Amy</string>
+
+</resources>
